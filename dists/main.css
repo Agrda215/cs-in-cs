@@ -1,0 +1,29 @@
+.codesandbox .logo-border {
+  border: 5px solid black;
+  width: 40px;
+  height: 40px;
+}
+
+.codesandbox .label {
+  font-size: 26px;
+  font-family: monospace;
+}
+
+.codesandbox {
+  display: flex;
+  justify-content: center;
+}
+
+resource-lang-name::before {
+  content: attr(content);
+  font-size: 17px;
+}
+
+div.langs {
+  display: flex;
+  justify-content: center;
+}
+
+.code {
+  font-family: lucida console;
+}
